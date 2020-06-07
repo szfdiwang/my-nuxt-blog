@@ -22,7 +22,9 @@
     "cross-env": "^5.2.0",
     "koa": "^2.6.2",
     "ant-design-vue": "^1.1.10",
-    "@nuxtjs/axios": "^5.3.6"
+    "@nuxtjs/axios": "^5.3.6",
+    "sass-loader": "^8.0.2",
+    "node-sass": "^4.14.1",
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",
@@ -32,10 +34,7 @@
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-nuxt": ">=0.4.2",
     "eslint-plugin-prettier": "^3.1.2",
-    "node-sass": "^4.14.1",
     "nodemon": "^1.18.9",
-    "prettier": "^1.19.1",
-    "sass-loader": "^8.0.2",
-    "scss-loader": "^0.0.1"
+    "prettier": "^1.19.1"
   }
 }
