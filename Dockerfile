@@ -1,5 +1,5 @@
 #build image
-FROM node:latest
+FROM node:alpine
 MAINTAINER szfdiwang 1726021@qq.com
 ENV NODE_ENV=production
 ENV HOST 0.0.0.0
