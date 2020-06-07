@@ -4,6 +4,12 @@
   "description": "nuxt-blog",
   "author": "wangchenchen",
   "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "dev": "3000"
+    }
+  },
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
     "build": "nuxt build && npm start",
