@@ -1,11 +1,9 @@
 #build image
-FROM alpine:3.10
-ENV NODE_VERSION 14.4.0
+FROM node:12-slim
 MAINTAINER szfdiwang 1726021@qq.com
 ENV NODE_ENV=production
 ENV HOST 0.0.0.0
 RUN mkdir -p /app
-RUN echo "http://mirrors.aliyun.com/alpine/v3.9/main/" > /etc/apk/repositories
 COPY . /app
 WORKDIR /app
 EXPOSE 3000
